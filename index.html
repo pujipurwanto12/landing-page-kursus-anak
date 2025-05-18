@@ -1,29 +1,67 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website Kursus Bahasa Inggris Anak</title>
     <!-- Tailwind CDN -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-white text-gray-800">
-
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white text-gray-800">
     <!-- Navbar -->
-     <nav class="bg-blue-600 text-white p-4 flex justify-between items-center">
-        <h1 class="text-xl font-bold">Kursus Anak</h1>
-        <ul class="flex space-x-4">
-            <li><a href="#home" class="hover:text-yellow-300">Beranda</a></li>
-            <li><a href="#tentang" class="hover:text-yellow-300">Tentang</a></li>
-            <li><a href="#kontak" class="hover:text-yellow-300">Kontak</a></li>
-        </ul>
-     </nav>
-    
-     <!-- Hero Section -->
-      <section id="home" class="text-center py-20 bg-yellow-100">
-        <h2 class="text-3xl font-bold mb-4">Belajar Bahasa Inggris Seru untuk Anak</h2>
-        <p class="text-lg mb-6">Kelas interaktif dengan guru berpengalaman dan metode bermain sambil belajar.</p>
-        <a href="#kontak" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Daftar Sekarang</a>
-      </section>
-</body>
+    <nav class="bg-blue-600 text-white p-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Kursus Anak</h1>
+      <ul class="flex space-x-4">
+        <li><a href="#home" class="hover:text-yellow-300">Beranda</a></li>
+        <li><a href="#tentang" class="hover:text-yellow-300">Tentang</a></li>
+        <li><a href="#kontak" class="hover:text-yellow-300">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-center py-20 bg-yellow-100">
+      <h2 class="text-3xl font-bold mb-4">
+        Belajar Bahasa Inggris Seru untuk Anak
+      </h2>
+      <p class="text-lg mb-6">
+        Kelas interaktif dengan guru berpengalaman dan metode bermain sambil
+        belajar.
+      </p>
+      <a
+        href="#kontak"
+        class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+        >Daftar Sekarang</a
+      >
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="py-16 bg-gray-100 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-bold text-center mb-8">Tentang Kami</h2>
+
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <!-- Gambar -->
+          <img
+            src="https://source.unsplash.com/400x300/?kids,study"
+            alt="Belajar Anak"
+            class="rounded shadow"
+          />
+
+          <!-- Deskripsi -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Misi Kami</h3>
+            <p class="text-gray-700">
+              Kami menyediakan kursus bahasa Inggris anak berbasis metode
+              interaktif dengan materi yang disesuaikan untuk perkembangan anak
+              usia 6–12 tahun. Guru kami berpengalaman dan memahami cara belajar
+              anak secara menyenangkan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
