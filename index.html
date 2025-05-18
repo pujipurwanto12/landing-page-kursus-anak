@@ -45,7 +45,7 @@
         <div class="grid md:grid-cols-2 gap-8 items-center">
           <!-- Gambar -->
           <img
-            src="images/anak-belajar.jpg" 
+            src="images/anak-belajar.jpg"
             alt="Belajar Anak"
             class="rounded shadow"
           />
@@ -68,26 +68,92 @@
     <section id="fitur" class="py-16 px-16 bg-white">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-2xl font-bold text-center mb-12">Fitur Kursus Kami</h2>
-        
+
         <div class="grid gap-8 md:grid-cols-3">
           <!-- Card 1 -->
-           <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
             <h3 class="text-xl font-semibold mb-2">Kelas Interaktif</h3>
-            <p class="text-gray-600">Pembelajaran dua arah dengan games dan diskusi ringan agar anak tidak bosan.</p>
-           </div>
+            <p class="text-gray-600">
+              Pembelajaran dua arah dengan games dan diskusi ringan agar anak
+              tidak bosan.
+            </p>
+          </div>
 
-           <!-- Card 2 -->
-           <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <!-- Card 2 -->
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
             <h3 class="text-xl font-semibold mb-2">Guru Profesional</h3>
-            <p class="text-gray-600">Guru bersertifikat yang berpengalaman dalam mengajar anak-anak usia dini.</p>
-           </div>
+            <p class="text-gray-600">
+              Guru bersertifikat yang berpengalaman dalam mengajar anak-anak
+              usia dini.
+            </p>
+          </div>
 
-           <!-- Card 3 -->
-           <div class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition">
+          <!-- Card 3 -->
+          <div
+            class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition"
+          >
             <h3 class="text-xl font-semibold mb-2">Modul Ramah Anak</h3>
-            <p class="text-gray-600">Materi pembelajaran dibuat khusus sesuai usia dan gaya belajar anak-anak.</p>
-           </div>
+            <p class="text-gray-600">
+              Materi pembelajaran dibuat khusus sesuai usia dan gaya belajar
+              anak-anak.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-16 px-6 bg-white">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold text-center mb-8">Kontak Kami</h2>
+
+        <form class="space-y-6">
+          <div>
+            <label for="nama" class="block mb-2 font-medium"
+              >Nama Lengkap</label
+            >
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              required
+              class="w-full border border-gray-300 px-4 py-2 rounded"
+            />
+          </div>
+
+          <div>
+            <label for="email" class="block mb-2 font-medium">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="w-full border border-gray-300 px-4 py-2 rounded"
+            />
+          </div>
+
+          <div>
+            <label for="pesan" class="block mb-2 font-medium">Pesan</label>
+            <textarea
+              id="pesan"
+              name="pesan"
+              rows="4"
+              required
+              class="w-full border border-gray-300 px-4 py-2 rounded"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+          >
+            Kirim Pesan
+          </button>
+        </form>
       </div>
     </section>
   </body>
